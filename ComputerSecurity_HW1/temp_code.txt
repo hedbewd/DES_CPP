@@ -1,0 +1,106 @@
+// Plain text hex to bin
+	//char plain_text_bin[1000000] = { 0 };
+	//char plain_text_temp[4] = { 0 };
+	/*for (int i = 0; i < strlen(plain_text_hex); i++) {
+		if (plain_text_hex[i] == '0') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == '1') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '1';
+		}
+		else if (plain_text_hex[i] == '2') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == '3') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '1';
+		}
+		else if (plain_text_hex[i] == '4') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == '5') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '1';
+		}
+		else if (plain_text_hex[i] == '6') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == '7') {
+			plain_text_temp[0] = '0';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '1';
+		}
+		else if (plain_text_hex[i] == '8') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == '9') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '1';
+		}
+		else if (plain_text_hex[i] == 'A') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == 'B') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '0';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '1';
+		}
+		else if (plain_text_hex[i] == 'C') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == 'D') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '0';
+			plain_text_temp[3] = '1';
+		}
+		else if (plain_text_hex[i] == 'E') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '0';
+		}
+		else if (plain_text_hex[i] == 'F') {
+			plain_text_temp[0] = '1';
+			plain_text_temp[1] = '1';
+			plain_text_temp[2] = '1';
+			plain_text_temp[3] = '1';
+		}
+		
+		plain_text_bin[i * 4] = plain_text_temp[0];
+		plain_text_bin[i * 4 + 1] = plain_text_temp[1];
+		plain_text_bin[i * 4 + 2] = plain_text_temp[2];
+		plain_text_bin[i * 4 + 3] = plain_text_temp[3];
+	}*/
